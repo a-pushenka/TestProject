@@ -1,4 +1,4 @@
-package course.section1;
+package course.section3;
 
 public class Test {
     public static void main(String[] args) {

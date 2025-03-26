@@ -43,11 +43,38 @@ public class Test {
                 System.out.println(bigLongLiteralValue);
 */
 // 20.Casting with numeric primitive types
-        short myMinShortValue = Short.MIN_VALUE; int myMinIntValue = Integer.MIN_VALUE;
+ /*     short myMinShortValue = Short.MIN_VALUE; int myMinIntValue = Integer.MIN_VALUE;
         System.out.println(myMinShortValue);
         System.out.println(myMinIntValue);
         byte myMinByteValue = Byte.MIN_VALUE, myMaxByteValue = Byte.MAX_VALUE;
         System.out.println(myMinByteValue);
         System.out.println(myMaxByteValue);
+        byte firstByte = 1, secondByte = 2;
+        System.out.println(firstByte);
+        System.out.println(secondByte);
+        int myTotal= (myMinIntValue / 2);
+        System.out.println(myTotal);
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        System.out.println(myNewByteValue);
+        short myNewShortValue = (short) (myMinShortValue / 2);
+*/
+        //21. Challenge
+ /*       byte myNewByteValue = 2;
+        short myNewShortValue = 3;
+        int myNewIntValue = 5;
+        long myNewLongValue = (long) (50000 + 10 * (myNewByteValue + myNewShortValue + myNewIntValue));
+        System.out.println(myNewByteValue);
+        System.out.println(myNewShortValue);
+        System.out.println(myNewIntValue);
+        System.out.println(myNewLongValue);
+*/
+        //22. Float, Double
+        System.out.println("Float Value Range (from " + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")" );
+        System.out.println("Double Value Range (from " + Double.MIN_VALUE + " to " + Double.MAX_VALUE + ")" );
+        float myFloatValue = 5f; double myDoubleValue = 5d;
+        System.out.println(myFloatValue);
+        System.out.println(myDoubleValue);
+        float myOtherFloatValue = 5.25f;
+        System.out.println(myOtherFloatValue);
     }
 }

@@ -69,12 +69,18 @@ public class Test {
         System.out.println(myNewLongValue);
 */
         //22. Float, Double
-        System.out.println("Float Value Range (from " + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")" );
+/*        System.out.println("Float Value Range (from " + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")" );
         System.out.println("Double Value Range (from " + Double.MIN_VALUE + " to " + Double.MAX_VALUE + ")" );
         float myFloatValue = 5f; double myDoubleValue = 5d;
         System.out.println(myFloatValue);
         System.out.println(myDoubleValue);
         float myOtherFloatValue = 5.25f;
         System.out.println(myOtherFloatValue);
+*/
+// 23
+        double myPoundValue = 2d;
+        double convertPoundToKg = myPoundValue * 0.45359237d;
+        System.out.println("Converted kilograms = " + convertPoundToKg);
+
     }
 }

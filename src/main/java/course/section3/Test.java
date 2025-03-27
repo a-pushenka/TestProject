@@ -102,5 +102,15 @@ public class Test {
         System.out.println("Is customer over 21? " + isCustomerOverTwentyOne);
         System.out.println("Does he/she married? " + isMarried);
  */
+        // 25. Primitives (byte, float, short, char, long, double, boolean, int);
+        // Classes: Wrappers(Boolean, Byte, Character..), BigDecimal, String.
+/*        String lastString = "10"; int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println(lastString);
+        double doubleNumber = 120.47; lastString = lastString + doubleNumber;
+        System.out.println(lastString);
+        System.out.println(myInt);
+        System.out.println(doubleNumber);
+*/
     }
 }

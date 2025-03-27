@@ -82,7 +82,7 @@ public class Test {
         double convertPoundToKg = myPoundValue * 0.45359237d;
         System.out.println("Converted kilograms = " + convertPoundToKg);
 */
-        // 24. Char and Boolean primitive data types
+        // 24. Char(stored as a whole number literal) and Boolean primitive data types
 /*      char myUnicode = '\u0044';
         System.out.println(myUnicode);
         char myDecimalCode = 68;
@@ -111,6 +111,14 @@ public class Test {
         System.out.println(lastString);
         System.out.println(myInt);
         System.out.println(doubleNumber);
+*/
+        // 26. Operators(+, *, - / %), Operand ( = 10  20  lastString), Expressions (combining variables, literals eg 10+5=15)
+/*        char firstChar = 'A'; char secondChar = 'B';
+        System.out.println(firstChar+secondChar); //A=65, B=66 (Html code in https://symbl.cc/en/unicode-table/)
+        System.out.println(("" + firstChar + secondChar));
+        int result = 5;
+        result = result % 3; // 5/3=1 и остаток 2, remainder= 2;
+        System.out.println(result);
 */
     }
 }

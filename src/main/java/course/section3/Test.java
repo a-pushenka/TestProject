@@ -78,9 +78,29 @@ public class Test {
         System.out.println(myOtherFloatValue);
 */
 // 23
-        double myPoundValue = 2d;
+/*      double myPoundValue = 2d;
         double convertPoundToKg = myPoundValue * 0.45359237d;
         System.out.println("Converted kilograms = " + convertPoundToKg);
-
+*/
+        // 24. Char and Boolean primitive data types
+/*      char myUnicode = '\u0044';
+        System.out.println(myUnicode);
+        char myDecimalCode = 68;
+        System.out.println(myDecimalCode);
+        char mySimpleChar = '?';
+        char myUnicodeChar = '\u003F';
+        char myDecimalChar = 63;
+        System.out.println("My values are: "
+                + mySimpleChar + " => simple char, "
+                + myUnicodeChar + " => unicode, "
+                + myUnicodeChar + " => decimal");
+        boolean isCustomerOverTwentyOne = true;
+        boolean isMarried = true;
+        boolean hasChildren = true;
+        boolean isEligibleForDiscount = true;
+        boolean myFaulseBooleanValue = false;
+        System.out.println("Is customer over 21? " + isCustomerOverTwentyOne);
+        System.out.println("Does he/she married? " + isMarried);
+ */
     }
 }

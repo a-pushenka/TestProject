@@ -120,5 +120,23 @@ public class Test {
         result = result % 3; // 5/3=1 и остаток 2, remainder= 2;
         System.out.println(result);
 */
+        //27. Post-fix Increment operator (++);
+        // addition compound assignment +=1;
+        // Post-fix Decrement operator (--);
+        // Substraction compound assignment -=1;
+        // multiplication compound assignment result *= 5;
+        // division compound assignment result /=5;
+        int result = 1;
+        result--; // or result = result -1; or result--; or result -= 1;
+        System.out.println(result); // 0
+        result = 1;
+        result += 7; // or result = result + 7; or result++ (+1); or result += 1;
+        System.out.println(result); //2
+        result = 10;
+        result -= 5.5; // it's = to result = (int) (result - 5.5)
+        System.out.println("result = " + result);
+        double resultD = 10;
+        resultD -= 5.5;
+        System.out.println("result of double variable = " + resultD);
     }
 }

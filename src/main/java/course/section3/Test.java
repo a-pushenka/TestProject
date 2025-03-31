@@ -13,7 +13,7 @@ public class Test {
 /*
         int myFirstNumber = 5;
         myFirstNumber = 10;
-        myFirstNumber = 1000; myFirstNumber is now 1000
+        myFirstNumber = 1000; // myFirstNumber is now 1000
         System.out.println(myFirstNumber);
         int myFirstNumber = (10 + 5) + (2 * 10);
         int mySecondNumber = 12;
@@ -27,12 +27,12 @@ public class Test {
 */
 
         //18.Primitive types: Integer Range and Wrapper Classes. Overflow and underflow
-/*        int myValue = 1000;
+        int myValue = 1000;
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
         System.out.println(" Integer Minimum Value = " + myMinIntValue);
         System.out.println(" Integer Value Range (from " + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")" );
-*/
+
         // 19 - Understanding byte short long. Byte - byte wrapper class.
 /*
         System.out.println("Byte Value Range (from " + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE + ")" );
@@ -127,7 +127,8 @@ public class Test {
         // multiplication compound assignment result *= 5;
         // division compound assignment result /=5;
         int result = 1;
-        result--; // or result = result -1; or result--; or result -= 1;
+        --result;
+      //  result--; // or result = result -1; or result--; or result -= 1;
         System.out.println(result); // 0
         result = 1;
         result += 7; // or result = result + 7; or result++ (+1); or result += 1;
@@ -138,5 +139,21 @@ public class Test {
         double resultD = 10;
         resultD -= 5.5;
         System.out.println("result of double variable = " + resultD);
+
+        // --result pre-fix decrement
+        // result-- post-fix decrement
+        int testQwerty = 5;
+        System.out.println(--testQwerty);
+        // int testQwerty = 5;
+        // testQwerty = testQwerty - 1;
+        // print testQwerty
+        int testQwerty2 = 5;
+        System.out.println(testQwerty2--);
+        // int testQwerty2 = 5;
+        // print testQwerty2
+        //testQwerty2 = testQwerty2 - 1
+        System.out.println(testQwerty2);
+
+
     }
 }

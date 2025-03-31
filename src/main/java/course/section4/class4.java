@@ -58,8 +58,8 @@ public static void main(String[] args) {
         System.out.println(s);
 
         // 40.
-        double numbOne = 25.00d; // 1 step
-        double numbTwo = 90.00d; // 2 step
+        double numbOne = 20.00d; // 1 step
+        double numbTwo = 80.00d; // 2 step
         double totalNumb = (numbOne + numbTwo) * 100.00d; // 3 step
         System.out.println("40. My total = " + totalNumb);
         double theRemainder = totalNumb % 40.00d; // 4 step

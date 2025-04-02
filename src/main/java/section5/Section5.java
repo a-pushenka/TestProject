@@ -35,12 +35,12 @@ public class Section5 {
         int highScore = calculatedScore (gameOver, score, levelCompleted, bonus);
         System.out.println("The highScore is " + highScore);
 
-        calculatedScore(true, 10000, 8, 200);
+        calculatedScore(true, 10000, 8, 200); // ignored cause we didn't assign any variable to this call
 
     }
 
     public static int calculatedScore (boolean gameOver, int score, int levelCompleted, int bonus) {
-// int means that no data will be returned from the method
+// int means that some data will be returned from the method
 
         int finalScore = score;
 

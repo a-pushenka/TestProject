@@ -36,7 +36,7 @@ public class Section5 {
         System.out.println("The highScore is " + highScore);
 
         calculatedScore(true, 10000, 8, 200); // ignored cause we didn't assign any variable to this call
-
+        System.out.println("The next highScore is " + calculatedScore(true, 10000, 8, 200));
     }
 
     public static int calculatedScore (boolean gameOver, int score, int levelCompleted, int bonus) {

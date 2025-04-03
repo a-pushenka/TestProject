@@ -103,7 +103,7 @@ public class Test {
         System.out.println("Does he/she married? " + isMarried);
  */
         // 25. Primitives (byte, float, short, char, long, double, boolean, int);
-        // Classes: Wrappers(Boolean, Byte, Character..), BigDecimal, String.
+        // Classes: Wrappers(Boolean, Byte, Character, Integer..), BigDecimal, String.
 /*        String lastString = "10"; int myInt = 50;
         lastString = lastString + myInt;
         System.out.println(lastString);

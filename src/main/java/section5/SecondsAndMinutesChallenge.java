@@ -9,7 +9,7 @@ public class SecondsAndMinutesChallenge {
 
     public static String getDurationString(int seconds) {
         if (seconds < 0) {
-            return System.out.println("Seconds should be equal to or more then 0");
+            return "Seconds should be equal to or more then 0";
         } else {
             int minutes = seconds / 60;
             /*

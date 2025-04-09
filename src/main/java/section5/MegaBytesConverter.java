@@ -7,7 +7,7 @@ public class MegaBytesConverter {
         printMegaBytesAndKiloBytes(2500);
     }
 
-    public static void printMegaBytesAndKiloBytes (int kiloBytes) {
+    public static void printMegaBytesAndKiloBytes(int kiloBytes) {
         if (kiloBytes < 0) {
             System.out.println("Invalid Value");
             return;

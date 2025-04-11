@@ -8,7 +8,7 @@ public class NumberInWord {
 
     }
 
-    public static void printNumberInWord (int number) {
+    public static void printNumberInWord(int number) {
         String numbInWord = switch (number) {
             case 0 -> "ZERO";  // {yield "ZERO";} because of void?
             case 1 -> "ONE";

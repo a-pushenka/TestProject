@@ -2,7 +2,6 @@ package section6;
 
 public class LoopChallenge {
     public static void main(String[] args) {
-
         int count = 0;
 
         for (int i = 10; i <= 50; i++) { // i or j as a loop iteration variable [count < 3 && i <= 50]
@@ -17,7 +16,6 @@ public class LoopChallenge {
     }
 
     public static boolean isPrime(int wholeNumber) {
-
         if (wholeNumber <= 2) {
             return (wholeNumber == 2);
         }

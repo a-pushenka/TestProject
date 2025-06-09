@@ -6,7 +6,6 @@ public class PerfectNumber23 {
     }
 
     public static boolean isPerfectNumber(int number) {
-
         if (number < 1) {
             return false;
         }

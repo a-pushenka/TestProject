@@ -4,6 +4,7 @@ public class LastDigitChecker20 {
     public static void main(String[] args) {
         System.out.println("Are shared numbers found for 12 and 345 and 678? - " + hasSameLastDigit(9, 342, 999));
         System.out.println(("Is the number parameter is in range of 10(inclusive) - 1000(inclusive)? " + isValid(1000)));
+        System.out.println("Are shared numbers found for 12 and 345 and 678? - " + hasSameLastDigit(25, 342, 999));
 
     }
 
@@ -23,12 +24,7 @@ public class LastDigitChecker20 {
     }
 
     public static boolean isValid(int value) {
-        boolean firstValid = value > 9 && value < 1001;
-
-        if (!firstValid) {
-            return false;
-        }
-        return true;
+        return value > 9 && value < 1001;
     }
 }
 

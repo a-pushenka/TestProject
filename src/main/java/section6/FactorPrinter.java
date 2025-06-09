@@ -2,7 +2,7 @@ package section6;
 
 public class FactorPrinter {
     public static void main(String[] args) {
-        printFactors(-1);
+        printFactors(10);
 
     }
 
@@ -14,7 +14,6 @@ public class FactorPrinter {
         for (int i = 1; i <= number; i++) {
             if ((number % i) == 0) {
                 System.out.print(i + " ");
-                continue;
             }
         }
     }

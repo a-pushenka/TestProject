@@ -17,7 +17,6 @@ public class GreatestCommonDivisor22 {
         for (int i = 1; i <= first; i++) {
             if (first % i == 0) {
                 System.out.print(i + " ");
-                continue;
             }
         }
 
@@ -26,7 +25,6 @@ public class GreatestCommonDivisor22 {
         for (int a = 1; a <= second; a++) {
             if ((second % a) == 0) {
                 System.out.print(a + " ");
-                continue;
             }
         }
 

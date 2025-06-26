@@ -2,7 +2,7 @@ package section6;
 
 public class PerfectNumber23 {
     public static void main(String[] args) {
-        System.out.println("Is number perfect? -> " + isPerfectNumber(0));
+        System.out.println("Is number perfect? -> " + isPerfectNumber(5));
     }
 
     public static boolean isPerfectNumber(int number) {

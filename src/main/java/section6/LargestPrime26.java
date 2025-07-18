@@ -2,7 +2,7 @@ package section6;
 
 public class LargestPrime26 {
     public static void main(String[] args) {
-        System.out.println(getLargestPrime(5));
+        System.out.println(getLargestPrime(24));
         System.out.println(getLargestPrime(217));
         System.out.println(getLargestPrime(0));
         System.out.println(getLargestPrime(45));
@@ -14,12 +14,11 @@ public class LargestPrime26 {
     }
 
     public static int getLargestPrime(int number) {
-
         if (number < 2) {
             return -1;
         }
 
-        int factor = -1;
+        int factor = -1; //почему -1 вместо false будто
         for (int i = 2; i * i <= number; i++) {
             if (number % i != 0) {
                 continue;
